@@ -1,0 +1,8 @@
+nome = str(input('Digite seu nome completo: ')).strip()
+mudanca = nome.replace(' ','') 
+separar = nome.split() 
+len(separar[0]) 
+print(f'Seu nome em Maiscula é', nome.upper()) 
+print(f'Seu nome em Minusculo é', nome.lower()) 
+print(f'Seu nnome tem o total de ',len(mudanca)) 
+print(len(separar[0]))

@@ -1,0 +1,7 @@
+n = input('Digite algo: ')
+print('O tipo primito desse valor é:',type(n))
+print('é um número?', n.isnumeric())
+print('é uma letra? ',n.isalpha())
+print('Está em maiuscula? ',n.isupper())
+print('Esta em minusclo?', n.islower())
+print('é um alpha numerico? ',n.isalnum())
