@@ -6,5 +6,5 @@ print('-=-' * 20)
 if num == computador:
     print('Parabens você acertou!!')
 else:
-    print('Você errou, tento novamente')
+    print(f'Eu ganhei! Eu pensei no numero {computador} e não no numero {num}!')
 print('-=-' * 10, 'FIM', '-=-' * 10)
