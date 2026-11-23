@@ -4,4 +4,4 @@ if radar <= 80:
     print('Você está no limite da velocidade!')
 else:
     velocidade = (radar - limite) * 7
-    print(f'Você foi multado e o valor da multa é R${velocidade:.2f}')
+    print(f'Você foi multado e o valor da multa é de R${velocidade:.2f}')
