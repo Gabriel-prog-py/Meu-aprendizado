@@ -1,8 +1,10 @@
 from random import randint
 computador = randint(0, 5)
+print('-=-' * 20)
 num = int(input('estou pensando em um numero entre 0 e 5, consegue adivinhar? '))
+print('-=-' * 20)
 if num == computador:
     print('Parabens você acertou!!')
 else:
     print('Você errou, tento novamente')
-print('=' * 10, 'FIM', '=' * 10)
+print('-=-' * 10, 'FIM', '-=-' * 10)
